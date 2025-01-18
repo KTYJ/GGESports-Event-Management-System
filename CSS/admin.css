@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    display:flex;
+    background-image: url('/Media/adminbg.jpg');
+}
+
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 100vh;
+    padding: 0 1.7em;
+    color: #fff;
+    overflow: hidden;
+    transition: all 0.5 linear;
+    background: black;
+}
+
+.logo{
+    text-align: center;
+    padding: 10px;
+}
+
+.menu{
+    height: 80%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu li:hover,
+.active{
+    background-color: #e0e0e058;
+}
+
+.menu a{
+    color:#fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.menu a span{
+    overflow: hidden;
+}
+
+.menu a i{
+    font-size: 1.2rem;
+}
+
+.content{
+    position:relative;
+    background-image:url("/images/adminbg.jpg") ;
+    width: 100%;
+    padding: 1rem;
+}
+
+.main-content{
+    padding-top: 50px;
+}
+.wrapper{
+    text-align: center;
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 20px;
+    box-shadow: 20px 20px 20px lightblue;
+}
+
+.content table, th, td{
+    border: solid 2px;
+    border-collapse:collapse;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.content th a{
+    text-decoration: none;
+}
+
+.content table{
+    width:80%;
+    background-color: white;
+    font-size: 15px;
+}
+
+.content tbody{
+    font-family: monospace;
+}
+
+.pattern a{
+    color:white;
+    text-decoration: none;
+}
+
+.iconbuttonedit{
+    display: inline-flex;
+    height: 35px;
+    padding: 0;
+    background-color: #009578;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.iconbuttonedit:hover{
+    background-color: #008168;
+}
+.iconbuttonedit:active{
+    background-color: #006e58;
+}
+
+.button_textedit,
+.button_iconedit{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    color: white;
+    height: 100%;
+}
+.button_iconedit{
+    font-size: 1.5em;
+    background-color: rgba(0,0,0,0.08);
+}
+
+.iconbuttondelete{
+    display: inline-flex;
+    height: 35px;
+    padding: 0;
+    background-color: #ff0000;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.iconbuttondelete:hover{
+    background-color: #e60000;
+}
+.iconbuttondelete:active{
+    background-color: #cc0000;
+}
+
+.button_textdelete,
+.button_icondelete{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+    height: 100%;
+}
+.button_icondelete{
+    font-size: 1.5em;
+    background-color: rgb(215, 15, 15);
+}
+
+.iconbuttoncreate{
+    display: inline-flex;
+    height: 35px;
+    padding: 0;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.iconbuttoncreate:hover{
+    background-color: #666666;
+}
+.iconbuttoncreate:active{
+    background-color: #404040;
+}
+
+.button_textcreate,
+.button_iconcreate{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    color: white;
+    height: 100%;
+}
+.button_iconcreate{
+    font-size: 1.5em;
+    background-color: #333333;
+}
+
+#tablehead{
+    background-color: rgba(113,99,186,255);
+}
+
+td a{
+    color:black;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+
+td a:hover{
+    color: rgb(169, 109, 203);
+}

@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #212523;
+}
+
+.container {
+    background: white;
+    width: 700px;
+    margin: 10vh auto;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.comment, .reply {
+    margin-top: 5px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.reply {
+    border: 3px solid #ccc;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form {
+    margin: 10px;
+}
+
+form h3 {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form button.submit, button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+button.reply {
+    background: orange;
+}
+
+.errors {
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 1px red solid;
+    color: red;
+    width: 30%;
+    padding-left: 10px;
+}
+
+textarea {
+    min-height: 50px; /* Set a minimum height */
+    max-height: 1000px; /* Set a maximum height */
+    overflow-y: hidden;
+    width: 100%; /* Set the width to fill the container */
+}
+
+footer {
+    margin-top: 306px;
+}

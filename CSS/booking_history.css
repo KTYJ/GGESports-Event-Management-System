@@ -1,0 +1,189 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+display: flex;
+margin:-9px;
+max-width: 100%;
+}
+
+.menu, .main{
+padding: 20px;
+    display: inline-block;
+    height: 100vh;
+}
+
+.menu{ 
+    flex: 1;
+    max-width: 20vh;
+    background-color: rgb(33, 78, 105);
+    color: white;
+}
+.main{
+    flex: 4;
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#aName, .time{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+#aName:hover{
+    text-decoration: underline;
+    cursor: context-menu;
+}
+
+.head{
+    text-align: center;
+}
+
+.personal h3{
+    font-size: 25px;
+}
+
+.personal{
+    border: solid 1px;
+    border-radius: 1cap;
+    max-width: 40%;
+    padding: 15px;
+    margin-left: 370px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: lightblue; 
+}
+
+.membership{
+    width: 40%; 
+    background-color: lightblue; 
+    padding: 20px;
+    border: 1px solid; 
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 1cap;
+}
+
+.payment{
+    width: 40%; 
+    background-color: lightblue; 
+    padding: 20px;
+    border: 1px solid; 
+    text-align: center;
+    margin-right:25px ;
+    border-radius: 1cap;
+}
+
+.box{
+    margin-left: 100px;
+    display: flex;
+}
+
+button{
+    font-size: 15px;
+    padding:3px;
+    min-width: 60px;
+    background-color: white;
+    transition: 0.7s;
+}
+
+button:hover{
+    background-color:rgb(154, 203, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+.head p{
+    font-size: 17px;
+    margin-bottom: 70px;
+}
+.containertable {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 10px solid grey;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+h1{
+    margin: 20px;
+}
+
+.iconbuttondelete{
+    display: inline-flex;
+    height: 35px;
+    padding: 0;
+    background-color: #1700aa;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.iconbuttondelete:hover{
+    background-color: #3c00ff;
+}
+.iconbuttondelete:active{
+    background-color: #000481;
+}
+
+.button_textdelete,
+.button_icondelete{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+    height: 100%;
+}
+.button_icondelete{
+    font-size: 1.5em;
+    background-color: #1700aa;
+}

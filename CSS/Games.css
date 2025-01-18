@@ -1,0 +1,375 @@
+@charset "utf-8";
+
+body{
+    background: linear-gradient(to right, #868f96 0%, #596164 100%);
+    background-attachment: fixed;
+}
+
+.gamesHeading {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    background-color:antiquewhite;
+    font-family: "Sedan SC",sans-serif;
+    margin-top: 80px;
+}
+
+.category-title {
+    text-align: center;
+    font-family: "Poetsen One",sans-serif;
+    font-size: 30px;
+    width: 200px;
+    font-weight:bolder;
+    padding: 50px 50px 50px 10px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.category {
+    background: url('../Media/games_bg.jpg');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.border {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+/* For PC Section */
+
+.pcGames {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    width: auto;
+    border: 3px solid black;
+    background-color: antiquewhite;
+}
+
+.pcGames img {
+    overflow: hidden;
+    background-repeat: none;
+    background-size: cover;
+    object-fit: cover;
+    margin-right: -77px;
+    position: relative;
+}
+
+.pcContent {
+    position: absolute;
+    top: 0;
+    margin-top: 285px;
+    width: 16.87%; /* Span the full width of the image */
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+    opacity: 0; /* Hide the text by default */
+    transition: opacity 0.3s ease; /* Smooth transition when appearing */
+    object-fit: cover;
+    z-index: 10;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.PC {
+    transition: 1.5s ease;
+}
+
+.pcGames:hover img {
+    transform: scale(1); /* Scale up the image on hover */
+}
+
+#csgo {
+    width: 525px;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+
+.pcGames #csgo:hover {
+    width: 800px;
+    clip-path: none;
+    height: auto;
+    transform: scale(1);
+    z-index: 5;
+}
+
+#lol {
+    width: 525px;
+    clip-path: polygon(15% 0, 85% 0, 100% 100%, 0 100%);
+}
+
+.pcGames #lol:hover {
+    width: 800px;
+    clip-path: none;
+    height: auto;
+    transform: scale(1);
+    z-index: 5;
+}
+
+#apex {
+    width: 525px;
+    margin-right: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+}
+
+#apex:hover {
+    width: 800px;
+    clip-path: none;
+    height: auto;
+    transform: scale(1);
+    z-index: 5;
+}
+
+/* End of PC Section */
+
+/* Mobile Section */
+
+.mbGames {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    width: auto;
+    border: 3px solid black;
+    background-color: antiquewhite;
+}
+
+.mbGames img {
+    overflow: hidden;
+    background-repeat: none;
+    background-size: cover;
+    object-fit: cover;
+    margin-right: -77px;
+    position: relative;
+}
+
+.mbContent {
+    position: absolute;
+    top: 0;
+    margin-top: 255px;
+    width: 16.87%; /* Span the full width of the image */
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+    opacity: 0; /* Hide the text by default */
+    transition: opacity 0.3s ease; /* Smooth transition when appearing */
+    object-fit: cover;
+    z-index: 10;
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.mbG {
+    transition: 1.5s ease;
+}
+
+.mbGames:hover img {
+    transform: scale(1); /* Scale up the image on hover */
+}
+
+#penguin {
+    width: 525px;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
+}
+
+.mbGames #penguin:hover {
+    width: 800px;
+    clip-path: none;
+    height: auto;
+    transform: scale(1);
+    z-index: 5;
+}
+
+#pubg {
+    width: 525px;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+}
+
+.mbGames #pubg:hover {
+    width: 800px;
+    clip-path: none;
+    height: auto;
+    transform: scale(1);
+    z-index: 5;
+}
+
+#wangZ {
+    width: 525px;
+    margin-right: 0;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#wangZ:hover {
+    width: 800px;
+    clip-path: none;
+    height: auto;
+    transform: scale(1);
+    z-index: 5;
+}
+
+/* End of Mobile Section */
+
+/* Description Layout */
+h3 {
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.description-container {
+    min-width: 768px;
+    max-width: 1024px;
+    margin: 0 auto;
+
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.description-row {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid black;
+    flex-direction: row;
+}
+
+.description-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+.title-row {
+    display: block;
+    float: right;
+    padding-left: 10px;
+}
+
+.title-row-reverse {
+    display: block;
+    float: left;
+    padding-right: 10px;
+}
+
+/*Share Button*/
+.btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-left: 130px;
+    margin-bottom: 10px;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: black;
+    color: orange;
+}
+/*********/
+/*CSGO*/
+
+#desc-media1 {
+    display: block;
+    float: left;
+    width: 5000px;
+    height: auto;
+    object-fit: contain;
+}
+
+#desc-csgo {
+    padding: 20px;
+    font-size: 21px;
+}
+
+/*LOL*/
+#desc-media2 {
+    display: block;
+    float: left;
+    width: 5000px;
+    height: auto;
+    object-fit: contain;
+}
+
+#desc-lol {
+    padding: 20px;
+    font-size: 21px;
+}
+
+/*Apex*/
+#desc-media3 {
+    display: block;
+    float: left;
+    width: 5000px;
+    height: auto;
+    object-fit: contain;
+}
+
+#desc-apex {
+    padding: 20px;
+    font-size: 21px;
+}
+
+/*Penguin*/
+#desc-media4 {
+    display: block;
+    float: left;
+    width: 5000px;
+    height: auto;
+    object-fit: contain;
+}
+
+#desc-penguin {
+    padding: 20px;
+    font-size: 21px;
+}
+
+/*PUBG*/
+#desc-media5 {
+    display: block;
+    float: left;
+    width: 5000px;
+    height: auto;
+    object-fit: contain;
+}
+
+#desc-pubg {
+    padding: 20px;
+    font-size: 21px;
+}
+
+/*WangZhe*/
+#desc-media6 {
+    display: block;
+    float: left;
+    width: 5000px;
+    height: auto;
+    object-fit: contain;
+}
+
+#desc-wang {
+    padding: 20px;
+    font-size: 21px;
+}
+

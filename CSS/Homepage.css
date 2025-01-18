@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+.backgroundInfo {
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: contain;
+  filter: brightness(40%);
+  width: 100%;
+  height: 778px;
+  z-index: -20;
+  position: absolute;
+}
+
+.info-container {
+  min-width: 768px;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: lightslategray;
+  background-image: url();
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  }
+
+#videoSize {
+  height: 800px;
+  overflow: hidden;
+  border-bottom: 1px salmon solid;
+}
+
+.homeVideo {
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    filter: brightness(60%);
+    object-fit: cover;
+    height: 800px;
+}
+
+.overlap{
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    width: 100%;
+    height: 700px;
+  }
+
+.title-1{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    z-index: 3;
+    margin-top: 300px;
+    padding-right: 7.5%;
+    text-shadow: 3px 3px black;
+    right: 0;
+  }
+  
+.title-2{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    z-index: 3;
+    margin-top: 375px;
+    padding-right: 6%;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    right: 0;
+  }
+
+.event{
+  text-align: center;
+  display: block;
+}
+.event div {
+  display: block;
+  margin-top: 40px;
+}
+
+.event img{
+  max-height: 38vh;
+  max-width:90%;
+
+}
+
+
+.special-news {
+  background-color: rgb(255, 250, 212);
+  display: block;
+  float: left;
+  min-height: 70vh;
+  width: 65%;
+  border: 5px solid black;
+  max-height: 5vh;
+}
+
+.special-news div{ /*This is the small container*/
+  max-height: 60vh; 
+}
+
+.special-news > div > div{
+  display: none;
+}
+.special-news > div > div:first-child{
+  display: block;
+}
+.special-news > div > div:last-child{
+  display: block;
+}
+
+.special-news h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.cs{
+  font-size: 20px;
+}
+
+.cs img{
+  width:100px;
+}
+
+/*Image Selection menu*/
+
+.selection--menu {
+  display: flex;
+  float: right;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: .7em;
+  border-radius: 1cap;
+}
+
+.nav-img {
+  object-fit: cover;
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  filter: transparent(80%);
+  display: block;
+  border-radius: 1cap;
+}
+
+.imgOverlay {
+  
+  position: absolute;
+  bottom: 0px;
+  overflow-y: hidden;
+  top: 0px;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #f1f1f1;
+  width: 100%;
+  border-radius: 1cap;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
+  z-index: 2;
+}
+
+.selection--menu:hover .imgOverlay {
+  opacity: 1;
+
+}

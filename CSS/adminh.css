@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../Media/adminhbg.jpg');
+    background-size: cover;
+}
+
+.image{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+
+.container{
+    align-items: center;
+}
+
+.htext{
+    font-size: 40px;
+    margin-bottom: 300px;
+    font-family: "Poetsen One",sans-serif;
+}
+
+.container2{
+    margin-left: 100px;
+}
+
+.container3 ul{
+    margin-bottom: 70px;
+    margin-left: 150px;
+    position: absolute;
+    top: 50%;
+    bottom: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.container3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+}
+
+.container3 ul li i{
+    font-size: 35px;
+    color: #333;
+    transition: 0.5s;
+    padding-right: 14px;
+}
+
+.container3 ul li span{
+    font-family:'Poppins',sans-serif;
+    color: #333;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.container3 ul li a{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 210px;
+    height: 70px;
+    background-color: #fff;
+    padding-left: 20px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.container3 ul li a:before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #accecc;
+    transition: 0.5s;
+    transform: skewY(-45deg);
+}
+
+.container3 ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #accecc;
+    transition: 0.5s;
+    transform: skewX(-45deg);
+}
+
+.container3 ul li:hover i{
+    color: #fff;
+}
+
+.container3 ul li:hover span{
+    color: #fff;
+}
+
+.container3 ul li:hover a{
+    background-color: #305da2;
+    transform: translate(15px,-15px);
+    box-shadow: -50px 50px 50px tgba(0, 0, 0, 0.5);
+}
+
+.container3 ul li:hover a:before{
+    background-color: #002970;
+}
+
+.container3 ul li:hover a:after{
+    background-color: #3f6cff; 
+}
+
+.container4 ul{
+    margin-bottom: 70px;
+    margin-left: 450px;
+    position: absolute;
+    top: 50%;
+    bottom: 20%;
+    transform: translate(-50%,-50%);
+}
+
+.container4 ul li{
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+}
+
+.container4 ul li i{
+    font-size: 35px;
+    color: #333;
+    transition: 0.5s;
+    padding-right: 14px;
+}
+
+.container4 ul li span{
+    font-family:'Poppins',sans-serif;
+    color: #333;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.container4 ul li a{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 210px;
+    height: 70px;
+    background-color: #fff;
+    padding-left: 20px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.container4 ul li a:before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #accecc;
+    transition: 0.5s;
+    transform: skewY(-45deg);
+}
+
+.container4 ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #accecc;
+    transition: 0.5s;
+    transform: skewX(-45deg);
+}
+
+.container4 ul li:hover i{
+    color: #fff;
+}
+
+.container4 ul li:hover span{
+    color: #fff;
+}
+
+.container4 ul li:hover a{
+    background-color: #305da2;
+    transform: translate(15px,-15px);
+    box-shadow: -50px 50px 50px tgba(0, 0, 0, 0.5);
+}
+
+.container4 ul li:hover a:before{
+    background-color: #002970;
+
+}
+
+.container4 ul li:hover a:after{
+    background-color: #3f6cff; 
+}
+
+
+
+.container5 ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #accecc;
+    transition: 0.5s;
+    transform: skewX(-45deg);
+}
+
+/*#logout:hover i{
+    color: #ff0000;
+}*/
+#logout{
+    translate: 150px 30px;
+}
+
+
+#logout:hover i, #logout:hover span{
+    font-weight: bold;
+    color: white;
+}
+
+#logout:hover a{
+    background-color: #dd4b39;
+    transform: translate(15px,-15px);
+    box-shadow: -50px 50px 50px tgba(0, 0, 0, 0.5);
+}
+
+#logout:hover a:before{
+    background-color: #b33a2b;
+}
+
+#logout:hover a:after{
+    background-color: #e66a5a;
+}

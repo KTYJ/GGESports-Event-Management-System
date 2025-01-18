@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.block {
+    margin-top: 10vh;
+    color: white;
+    padding: 0 50px 50px 50px;
+}
+
+.block h2{
+    font-size: 75px;
+}
+.block p{
+    font-size: 20px;
+}
+
+.flex-container {
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    justify-items: center;
+    min-height: 60vh;
+}
+
+.box-area {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 10px;
+    background-color: rgba(59, 54, 65, 0.604);
+    border: 2px black solid;
+    scrollbar-width: none;  /* Firefox */
+}
+
+.box-area:-webkit-scrollbar {
+  display: none;
+}
+
+.img-top {
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-top img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.block .search-container{
+    margin-top: 25px;
+}
+
+.search-container input, .search-container button{
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.search-container a{
+    color: white;
+}
+
+.describe {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.describe .title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Audiowide",sans-serif;
+}
+
+.title_s{
+    color: white;
+    text-transform:none;
+    font-size: 15px;
+    font-family: "Audiowide",sans-serif;
+}
+
+
+.bookNow {
+    width: 150px;
+    height: 50px;
+    border: 1px linen black;
+    border-radius: 1cap;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: dimgray;
+    transition: 0.4s ease;
+}
+
+.bookNow:hover {
+    background-color: lightsalmon;
+    transform: scale(1.2);
+    color: black;
+ 
+}
+
+

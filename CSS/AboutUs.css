@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content--container::-webkit-scrollbar{
+    display: none; /*Chrome, Safari and Opera */
+}
+.content--container {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    left: 250px;
+    bottom: 0;
+    top: 100px;
+    right: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+h1.title {
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 5;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.society {
+    color: white;
+    text-align: left;
+    line-height: 23px;
+    overflow-y: hidden;
+    font-size: 20px;
+}
+
+#videoSize {
+    height: 838px;
+    overflow: hidden;
+  }
+  
+  .homeVideo {
+      width: 100%;
+      z-index: -1;
+      position: relative;
+      filter: brightness(60%);
+      object-fit: cover;
+      height: 900px;
+  }
