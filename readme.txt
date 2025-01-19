@@ -1,11 +1,12 @@
-////////AMIT2043 Assignment, ESports Society by DFTG6
+////////AMIT2043 Assignment, ESports Society by TARUMT DFTG6 Students
 
 //ADMIN
-//to navigate to admin login, enter the admin id on both username and password field on user login.
+//To visit the admin login portal, enter the ADMIN ID in both username and password fields on user login page.
 //(id) (password)
 
-    A334	041005
+ADMIN ID: A334 
+PASSKEY : 041005
 
-//USER
+// USER (can register more)
 kenlam kenlam333
 jinh05 sjh041005
